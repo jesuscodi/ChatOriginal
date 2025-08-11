@@ -4,13 +4,14 @@ import { getDatabase, ref, push, onChildAdded, serverTimestamp, query, orderByCh
 
 // Tu configuración de Firebase (rellena con la tuya)
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://TU_PROJECT_ID-default-rtdb.firebaseio.com",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_PROJECT_ID.appspot.com",
-  messagingSenderId: "TU_SENDER_ID",
-  appId: "TU_APP_ID"
+  apiKey: "AIzaSyCgHojFMtxO0_FbONRMYdfCt8gxFpJMZxg",
+  authDomain: "chatweb-7d65a.firebaseapp.com",
+  databaseURL: "https://chatweb-7d65a-default-rtdb.firebaseio.com",
+  projectId: "chatweb-7d65a",
+  storageBucket: "chatweb-7d65a.firebasestorage.app",
+  messagingSenderId: "741436207771",
+  appId: "1:741436207771:web:707ee44969271b25fb4c3e",
+  measurementId: "G-7L7N83H41N"
 };
 
 // Inicializar Firebase
